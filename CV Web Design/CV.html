@@ -2,9 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn CV</title>
+    <link rel="stylesheet" href="CV.css">
 </head>
 <body>
 
+<nav>
+    <ul>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="photo">
+        <a href="https://www.linkedin.com/in/badreddine-najja-0462b2332/" target="_blank">
+            <img src="Images/CVfoto.jpg" alt="Mijn Foto">
+        </a>
+    </div>
+
+    <h1>Badreddine Najja</h1>
+
+    <div class="section about-me">
+        <h2>About Me</h2>
+        <p>Ik ben een enthousiaste en leergierige persoon met een passie voor programmeren en voetbal. Ik geniet van het oplossen van complexe problemen en zie elke uitdaging als een kans om te groeien. In mijn vrije tijd werk ik graag aan nieuwe projecten, waarbij ik continu mijn vaardigheden verbeter en nieuwe technologieën ontdek. Daarnaast haal ik veel plezier uit sporten, met name voetbal, waar ik mijn teamgeest en doorzettingsvermogen verder ontwikkel. Ik streef ernaar om mezelf constant te blijven uitdagen en nieuwe dingen te leren.</p>
+    </div>
+
+    <div class="section contact">
+        <h2>Contactgegevens</h2>
+        <p>Email: Badreddine.Najja@student.pxl.be</p>
+        <p>Telefoon: +32 496 23 17 81</p>
+        <p>Adres: Lemmenshoefstraat 30, Dilsen-Stokkem, België</p>
+    </div>
+
+    <div class="section education">
+        <h2>Behaalde Diplomas</h2>
+        <ul>
+            <li>Diploma Secundair Onderwijs - [Stedelijke Humaniora Dilsen] (2020-2021)</li>
+        </ul>
+    </div>
+
+    <div class="section skills">
+        <h2>Vaardigheden</h2>
+        <ul>
+            <li>Java</li>
+            <li>Microsoft 365</li>
+            <li>C#</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Webdesign</li>
+        </ul>
+    </div>
+
+    <div class="section languages">
+        <h2>Taalkennis</h2>
+        <ul>
+            <li>Nederlands - Vloeiend</li>
+            <li>Engels - Vloeiend</li>
+            <li>Arabisch - Vloeiend</li>
+            <li>Frans - Matig</li>
+            <li>Duits - Matig</li>
+        </ul>
+    </div>
+
+    <div class="section experience">
+        <h2>Werkervaring</h2>
+        <ul>
+            <li><strong>Magazijnier</strong> - Jysk (2020 - 2021) <br> Werkzaamheden: Verantwoordelijk voor het beheren van de voorraad, het inladen van producten en het ordenen van de magazijnruimten.</li>
+            <li><strong>Keukenmedewerker</strong> - Terland (2021 - Nu) <br> Werkzaamheden: Het voorbereiden van maaltijden, het schoonmaken van de keuken en het helpen bij de klantenservice.</li>
+        </ul>
+    </div>
+</div>
 </body>
+<footer>
+    <div class="footer-content">
+        <span>Badreddine Najja - Klas: 1PROd</span>
+        <span>Opdracht curriculum vitae</span>
+        <button id="back-to-top" onclick="scrollToTop()">Terug naar boven</button>
+    </div>
+</footer>
+<script>
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
 </html>
